@@ -10,7 +10,7 @@ app.use(cors());
 
 app.use(express.json())
 
-mongoose.connect('mongodb://localhost:27017/moviemimic', {
+mongoose.connect('mongodb+srv://aryan16072001236809:F6Y50zEuWZLrso9D@cluster0.irqwovp.mongodb.net/Moviemimic?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => console.log("DB Connected"))
